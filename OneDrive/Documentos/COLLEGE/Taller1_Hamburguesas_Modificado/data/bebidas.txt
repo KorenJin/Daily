@@ -1,0 +1,3 @@
+cocacola;5000
+jugo;2000
+pepsi;7000
