@@ -53,3 +53,12 @@ git commit -m "Configure React app for deployment to GitHub Pages"
 git push origin master
 
 I recommend exploring the GitHub repository at this point. It will have two branches: master and gh-pages. The master branch will contain the React app's source code, while the gh-pages branch will contain the distributable version of the React app.
+
+Always open master branch for code edition, gh-pages branch is defualt for Github Pages to work, so this can't be changed.
+
+
+
+Other libraries:
+
+- For translations of text
+npm install react-i18next i18next
