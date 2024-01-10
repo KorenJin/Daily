@@ -1,13 +1,19 @@
 {
   "files": {
-    "main.css": "/daily/static/css/main.0259dacd.css",
-    "main.js": "/daily/static/js/main.2593a1b0.js",
+    "main.css": "/daily/static/css/main.a76d90f9.css",
+    "main.js": "/daily/static/js/main.ed7ce51a.js",
+    "static/media/Gen Jyuu Gothic Medium.ttf": "/daily/static/media/Gen Jyuu Gothic Medium.8f5595ccdad1467ec673.ttf",
+    "static/media/I.Ngaan Regular.ttf": "/daily/static/media/I.Ngaan Regular.3fc76ef49c0d77886f60.ttf",
+    "static/media/reiko.TTF": "/daily/static/media/reiko.de9cee2fa0bae696ad1a.TTF",
+    "static/media/SingleDay-Regular.ttf": "/daily/static/media/SingleDay-Regular.b78b535a0525794dd2ad.ttf",
+    "static/media/AmaticSC-Bold.ttf": "/daily/static/media/AmaticSC-Bold.f12c1d887cda2131ac83.ttf",
+    "static/media/AmaticSC-Regular.ttf": "/daily/static/media/AmaticSC-Regular.fd9971162ff94dc53856.ttf",
     "index.html": "/daily/index.html",
-    "main.0259dacd.css.map": "/daily/static/css/main.0259dacd.css.map",
-    "main.2593a1b0.js.map": "/daily/static/js/main.2593a1b0.js.map"
+    "main.a76d90f9.css.map": "/daily/static/css/main.a76d90f9.css.map",
+    "main.ed7ce51a.js.map": "/daily/static/js/main.ed7ce51a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0259dacd.css",
-    "static/js/main.2593a1b0.js"
+    "static/css/main.a76d90f9.css",
+    "static/js/main.ed7ce51a.js"
   ]
 }
