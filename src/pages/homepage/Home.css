@@ -7,6 +7,12 @@
     width: 100vw;
 }
 
-#saturn {
-    width: 25rem;
+#homeimg {
+    width: min(35vh, 35vw);
+    height: min(35vh, 35vw);
+    padding-top: min(15vh, 15vw);
+    padding-bottom: min(15vh, 15vw);
+    animation: planet 40s infinite ease-in-out;
+    user-select: none;
 }
+

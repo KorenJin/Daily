@@ -1,0 +1,127 @@
+.sidebar-menu {
+
+    user-select: none;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    background-color: antiquewhite;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    justify-items: center
+
+}
+
+.sidebar-menu.open {
+    width: 100%;
+    padding-left: min(2vh, 2vw);
+}
+
+.sidebarlink {
+    color: whitesmoke;
+    font-size: min(3vh, 3vw);
+    font-weight: 560;
+}
+
+.sidebar-menu > div > img {
+    width: min(5vh, 5vw);
+    height: min(5vh, 5vw);
+    padding-top: min(2vh, 2vw);
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu > div {
+    background-color: black;
+    width: min(18vh, 18vw);
+    height: min(18vh, 18vw);
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.7);
+}
+
+.sidebar-menu > div {
+    transition: all 0.3s ease;
+}
+
+.sidebar-menu > div:hover {
+    cursor: pointer;
+    background-color: rgb(0, 158, 92) !important;
+    transform: scale(1.1);
+}
+
+.sidebar-menu > div:hover > img {
+    transform: scale(1.5);
+}
+
+.animatesidebarlink {
+    transform: scale(1) !important;
+}
+
+
+
+
+
+
+
+
+#sidebar-button {
+
+    user-select: none;
+    
+    background-color:whitesmoke;
+    border-radius: 50%;
+    padding: min(6vh, 6vw);
+
+    position: fixed;
+    left: 0;
+    transition: all 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#squarewrapper {
+    
+    background-color:rgb(201, 201, 201);
+    border-radius: 20%;
+    padding: min(7.3vh, 7.3vw);
+    position: fixed;
+    left: max(-7.3vh, -7.3vw);
+    transition: all 0.1s ease;
+
+}
+
+#sidebar-button > img {
+    width: min(3vh, 3vw);
+    height: min(3vh, 3vw);
+    transition: all 0.35s ease;
+}
+
+#sidebar-button.animation > img {
+    transform: rotate(180deg);
+}
+
+#sidebar-button.animation {
+    transform: scale(0.8);
+}
+
+
+
+.boxglow-bright {
+    box-shadow: 0 0 10px rgba(255, 241, 220, 0.3), 
+                0 0 20px rgba(255, 241, 220, 0.3), 
+                0 0 30px rgba(255, 241, 220, 0.3);
+}

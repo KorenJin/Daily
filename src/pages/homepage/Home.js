@@ -1,12 +1,21 @@
 import React from 'react';
 import './Home.css';
+import Menu from '../menu/Menu';
 
 function Home() {
   return (
     <div id="homecontainer">
-      <h1>Daily</h1>
-      <div>Explore your worlds!</div>
-      <img id="saturn" src={process.env.PUBLIC_URL + "/Images/homepage/saturn.png"} alt="saturn" />
+    
+      <div id="homecontent">
+        <div id="hometext">
+          <h1 className='textglow'>Daily 梦境</h1>
+          <div className='textglow'>Explore your worlds!</div>
+        </div>
+        <img id="homeimg" className='imgglow' src={process.env.PUBLIC_URL + "/Images/space.png"} alt="earth" />
+      </div>
+      
+      <Menu></Menu>
+
     </div>
   );
 }
