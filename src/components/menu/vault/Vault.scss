@@ -1,0 +1,61 @@
+.vault-all {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    justify-items: center;
+
+    &.open {
+        width: 100%;
+        padding-left: min(2vh, 2vw);
+    }
+
+    .vault-button {
+        background-color: black;
+        width: min(18vh, 18vw);
+        height: min(18vh, 18vw);
+        border-radius: 50%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column; 
+        box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.7);
+        transition: all 0.3s ease;
+        color: whitesmoke;
+        font-size: min(3vh, 3vw);
+        font-weight: 560;
+
+        &:hover {
+            cursor: pointer;
+            background-color: rgb(0, 158, 92) !important;
+            transform: scale(1.1);
+
+            .icon {
+                transform: scale(1.5);
+            }
+        }
+
+        &.open {
+            transform: scale(1) !important;
+        }
+
+        .icon {
+            width: min(5vh, 5vw);
+            height: min(5vh, 5vw);
+            padding-top: min(2vh, 2vw);
+            transition: all 0.3s ease;
+            animation: planet-icon 5s linear infinite;
+            transform-origin: 55% 60%;
+        }
+    }
+
+}

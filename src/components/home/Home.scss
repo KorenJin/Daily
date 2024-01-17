@@ -1,4 +1,4 @@
-#homecontainer {
+.home-all {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,12 +7,10 @@
     width: 100vw;
 }
 
-#homeimg {
+.home-img {
     width: min(35vh, 35vw);
     height: min(35vh, 35vw);
     padding-top: min(15vh, 15vw);
     padding-bottom: min(15vh, 15vw);
-    animation: planet 40s infinite ease-in-out;
-    user-select: none;
+    animation: planet 20s infinite ease-in-out;
 }
-

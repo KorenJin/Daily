@@ -1,9 +1,9 @@
 import React from "react";
-import "./Menu.css";
+import "./HeaderMenu.scss";
 import routes from "../routes/Routes";
 import { useNavigate } from "react-router-dom";
 
-function Menu() {
+function HeaderMenu() {
 
     const navigate = useNavigate();
 
@@ -71,7 +71,7 @@ function Menu() {
         <div className={`sidebar-menu`} id="sidebar-menu-whole">
             <div id="homelinkcontainer" onClick={() => handleClick({ path: '/', name: 'Home' })} >
                 <div className="sidebarlink textglow" id="homelink"> Home </div>
-                <img id="homeicon" className="imgglow sidebaricon" src={process.env.PUBLIC_URL + "/Images/earth.png"} alt="saturn" />
+                <img id="homeicon" className="imgglow sidebaricon" src={process.env.PUBLIC_URL + "/Images/earth.png"} alt="home" />
             </div>
             {
                 routes.map((route, index) => (
@@ -97,4 +97,4 @@ function Menu() {
     );
 }
 
-export default Menu;
+export default HeaderMenu;
